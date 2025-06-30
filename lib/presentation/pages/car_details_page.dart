@@ -141,7 +141,7 @@ class _CardDetailsPageState extends State<CardDetailsPage>
               children: [
                 MoreCard(
                     car: Car(
-                        model: widget.car.model + "-1",
+                        model: "${widget.car.model}-1",
                         distance: widget.car.distance + 100,
                         fuelCapacity: widget.car.fuelCapacity + 100,
                         pricePerHour: widget.car.pricePerHour + 10)),
@@ -150,7 +150,7 @@ class _CardDetailsPageState extends State<CardDetailsPage>
                 ),
                 MoreCard(
                     car: Car(
-                        model: widget.car.model + "-2",
+                        model: "${widget.car.model}-2",
                         distance: widget.car.distance + 200,
                         fuelCapacity: widget.car.fuelCapacity + 200,
                         pricePerHour: widget.car.pricePerHour + 20)),
@@ -159,7 +159,7 @@ class _CardDetailsPageState extends State<CardDetailsPage>
                 ),
                 MoreCard(
                     car: Car(
-                        model: widget.car.model + "-3",
+                        model: "${widget.car.model}-3",
                         distance: widget.car.distance + 300,
                         fuelCapacity: widget.car.fuelCapacity + 300,
                         pricePerHour: widget.car.pricePerHour + 30)),
